@@ -12,9 +12,23 @@ ou
 membros_da_familia = Marco,Andreia,Auane
 ```
 #### 2.2. Efetue uma definição, através de enumeração, de cursos existentes na instituição de ensino em que você está estudando.
+```
+cursos = Desenvolvimento de software multiplataforma, geoprocessamento
+```
 #### 2.3. Efetue uma definição, através de enumeração, de números primos. Um número é dito primo se só possui como divisor ele mesmo e o número um.
+```
+numeros_primos = 1,3,5,7,...
+```
 #### 2.4. Efetue uma definição ostensiva, de um colega de classe.
 #### 2.5. Efetue uma definição recursiva de uma sequência numérica cujos elementos são obtidos multiplicando-se, a partir do segundo elemento, o elemento anterior por 3. Considere que o primeiro elemento vale 2.
+```
+Primeiro termo da sequência numérica = 2
+Termos da sequência numérica = Xk, com Xk expresso pela fórmula Xk = (Xk -1) * 3
+
+Sequência numérica = {2,6,18...}
+
+sequência_numérica = {Xk | X1 = 2 e Xk = Xk-1 * 3}
+```
 #### 2.6. Utilizando linguagem de programação defina:
 - a) Uma enumeração para os meses do ano.
 - b) Uma enumeração para os dias da semana.
