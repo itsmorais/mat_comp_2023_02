@@ -31,7 +31,19 @@ sequência_numérica = {Xk | X1 = 2 e Xk = Xk-1 * 3}
 ```
 #### 2.6. Utilizando linguagem de programação defina:
 - a) Uma enumeração para os meses do ano.
+```ts
+  
+  enum meses_do_ano {
+    Janeiro, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro
+}
+```
+
 - b) Uma enumeração para os dias da semana.
+```ts
+enum dias_da_semana {
+    Segunda,Terca,Quarta,Quinta,Sexta
+}
+```
 - c) Uma função recursiva para o cálculo do fatorial de um número.
 - d) Uma definição que corresponda a definição do tipo gênero-diferença para um uma pessoa que estude em uma faculdade. Utilize uma linguagem que dê suporte a herança.
 #### 2.7. Um veículo possui a capacidade de se mover, expressa pela alteração na sua coordenadade longitude e latitude. Um veículo elétrico é um veículo que possui como fonte de energia primária a eletricidade (armazenada em uma bateria). Um veículo elétrico e voador é um veículo que também possui a capacidade de se mover na vertical, expressa pela alteração de sua altitude em relação ao solo. Represente um veículo elétrico e voador utilizando uma cadeia de herança. Defina o código-fonte representativo do modelo em um arquivo separado daquele que faz uso desse e, adicionalmente exemplifique o acesso e a modificação desses atributos através de chamada de suas operações.
