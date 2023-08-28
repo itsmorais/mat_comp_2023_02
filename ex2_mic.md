@@ -45,6 +45,17 @@ enum dias_da_semana {
 }
 ```
 - c) Uma função recursiva para o cálculo do fatorial de um número.
+```ts
+function fatorial(numero: number): number {
+    if (numero == 0) {
+        return 1
+    }
+    else {
+        return fatorial(numero - 1) * numero
+    }
+
+}
+```
 - d) Uma definição que corresponda a definição do tipo gênero-diferença para um uma pessoa que estude em uma faculdade. Utilize uma linguagem que dê suporte a herança.
 #### 2.7. Um veículo possui a capacidade de se mover, expressa pela alteração na sua coordenadade longitude e latitude. Um veículo elétrico é um veículo que possui como fonte de energia primária a eletricidade (armazenada em uma bateria). Um veículo elétrico e voador é um veículo que também possui a capacidade de se mover na vertical, expressa pela alteração de sua altitude em relação ao solo. Represente um veículo elétrico e voador utilizando uma cadeia de herança. Defina o código-fonte representativo do modelo em um arquivo separado daquele que faz uso desse e, adicionalmente exemplifique o acesso e a modificação desses atributos através de chamada de suas operações.
 #### 2.8. O que acontece ao se executar uma chamada a uma função recursiva que chama a si mesma um elevado número de vezes? Dê um exemplo utilizando o código-fonte da progressão aritmética fornecido pelo professor. Faça um comparativo escrevendo um algoritmo e código que sejam equivalentes ao recursivo em termos de entradas e saídas mas que utilizem iteração ao invés de recursão. Qual sua conclusão?
