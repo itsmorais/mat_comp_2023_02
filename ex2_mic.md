@@ -55,6 +55,24 @@ function fatorial(numero: number): number {
     }
 
 }
+
+console.log(fatorial(6))
+
+// Lógica por trás da recursão
+/* fatorial 6
+ fatorial 5 * 6
+ (fatorial 4 * 5) * 6
+ ((fatorial 3 * 4) * 5) * 6
+ (((fatorial 2 * 3) * 4) * 5) * 6
+ ((((fatorial 1 * 2) * 3) * 4) * 5) * 6
+ (((((fatorial 0 * 1) * 2) * 3) * 4) * 5) * 6
+ (((((1 * 1) * 2) * 3) * 4) * 5) * 6
+ ((((1 * 2) * 3) * 4) * 5) * 6
+ (((2 * 3) * 4) * 5) * 6
+ ((6 * 4) * 5) * 6
+ (24 * 5) * 6
+ 120 * 6
+ 720 */
 ```
 - d) Uma definição que corresponda a definição do tipo gênero-diferença para um uma pessoa que estude em uma faculdade. Utilize uma linguagem que dê suporte a herança.
 #### 2.7. Um veículo possui a capacidade de se mover, expressa pela alteração na sua coordenadade longitude e latitude. Um veículo elétrico é um veículo que possui como fonte de energia primária a eletricidade (armazenada em uma bateria). Um veículo elétrico e voador é um veículo que também possui a capacidade de se mover na vertical, expressa pela alteração de sua altitude em relação ao solo. Represente um veículo elétrico e voador utilizando uma cadeia de herança. Defina o código-fonte representativo do modelo em um arquivo separado daquele que faz uso desse e, adicionalmente exemplifique o acesso e a modificação desses atributos através de chamada de suas operações.
