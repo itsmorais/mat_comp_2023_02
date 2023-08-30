@@ -1,14 +1,6 @@
 # 2. DEFINIÇÕES MATEMÁTICAS
 #### 2.1. Efetue uma definição, através de enumeração, de todos os membros da sua família, considerando apenas parentesco direto de pais, irmãos e filhos.
 ```
-Enumeração membros_da_familia:
-  pais = Marco,Andreia
-  irmaos = Auane
-  filhos = ''
-Fim-enumeração
-
-ou
-
 membros_da_familia = Marco,Andreia,Auane
 ```
 #### 2.2. Efetue uma definição, através de enumeração, de cursos existentes na instituição de ensino em que você está estudando.
@@ -34,29 +26,29 @@ sequência_numérica = {Xk | X1 = 2 e Xk = Xk-1 * 3}
 ```ts
   
   enum meses_do_ano {
-    Janeiro, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro
+    Janeiro=1, Fevereiro=2, Marco=3, Abril=4, Maio=5, Junho=6, Julho=7, Agosto=8, Setembro=9, Outubro=10, Novembro=11, Dezembro=12
 }
 ```
 
 - b) Uma enumeração para os dias da semana.
 ```ts
 enum dias_da_semana {
-    Segunda,Terca,Quarta,Quinta,Sexta
+    Segunda=1,Terca=2,Quarta=3,Quinta=5,Sexta=6,Sabado=7,Domingo=8
 }
 ```
 - c) Uma função recursiva para o cálculo do fatorial de um número.
 ```ts
-function fatorial(numero: number): number {
+function fatorial_mic(numero: number): number {
     if (numero == 0) {
         return 1
     }
     else {
-        return fatorial(numero - 1) * numero
+        return fatorial_mic(numero - 1) * numero
     }
 
 }
 
-console.log(fatorial(6))
+console.log(fatorial_mic(6))
 
 // Lógica por trás da recursão
 /* fatorial 6
