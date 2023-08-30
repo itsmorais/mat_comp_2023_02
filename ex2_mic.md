@@ -1,4 +1,5 @@
 # 2. DEFINIÇÕES MATEMÁTICAS
+- Dupla: Michael Morais e Thiago Brito
 #### 2.1. Efetue uma definição, através de enumeração, de todos os membros da sua família, considerando apenas parentesco direto de pais, irmãos e filhos.
 ```
 membros_da_familia = Marco,Andreia,Auane
