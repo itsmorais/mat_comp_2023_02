@@ -1,6 +1,6 @@
-import Veiculo from "./veiculo";
+import Veiculo_mic from "./veiculo";
 
-class Carro_Voador extends Veiculo {
+class Carro_Voador_mic extends Veiculo_mic {
     vertical: number = 0;
     horizontal: number = 0;
 
@@ -34,7 +34,7 @@ class Carro_Voador extends Veiculo {
 }
 
 
-const evetol = new Carro_Voador(0, 0);
+const evetol = new Carro_Voador_mic(0, 0);
 evetol.mover_horizontal(); // retorna erro pois veiculo está parado
 console.log(evetol.latitude, evetol.longitude); // 0 0
 evetol.take_off(); // decola

@@ -7,7 +7,7 @@ código-fonte representativo do modelo em um arquivo separado daquele que faz us
 adicionalmente exemplifique o acesso e a modificação desses atributos através de chamada de
 suas operações. */
 
-export default class Veiculo {
+export default class Veiculo_mic {
     longitude: number;
     latitude: number;
 
