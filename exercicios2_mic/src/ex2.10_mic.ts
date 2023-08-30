@@ -5,7 +5,7 @@ cálculo de alguns de seus termos. Ilustre a chamada recursiva e identifique cha
 a um mesmo valor. */
 
 
-class Fibonacci {
+class Fibonacci_mic {
     fibo: number[] = [1, 1, 2];
 
 
@@ -34,5 +34,5 @@ class Fibonacci {
 }
 
 
-new Fibonacci().gerar_sequencia_recursiva(8)
-new Fibonacci().gerar_sequencia(8);
+new Fibonacci_mic().gerar_sequencia_recursiva(8)
+new Fibonacci_mic().gerar_sequencia(8);

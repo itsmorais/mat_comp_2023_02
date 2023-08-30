@@ -25,14 +25,14 @@ sequência_numérica = {Xk | X1 = 2 e Xk = Xk-1 * 3}
 - a) Uma enumeração para os meses do ano.
 ```ts
   
-  enum meses_do_ano {
+  enum meses_do_ano_mic {
     Janeiro=1, Fevereiro=2, Marco=3, Abril=4, Maio=5, Junho=6, Julho=7, Agosto=8, Setembro=9, Outubro=10, Novembro=11, Dezembro=12
 }
 ```
 
 - b) Uma enumeração para os dias da semana.
 ```ts
-enum dias_da_semana {
+enum dias_da_semana_mic {
     Segunda=1,Terca=2,Quarta=3,Quinta=5,Sexta=6,Sabado=7,Domingo=8
 }
 ```
@@ -171,20 +171,20 @@ console.log(evetol.latitude, evetol.longitude); // 15 50
 #### 2.9. Uma progressão geométrica é uma sequência numérica onde cada elemento, a partir do segundo, é obtido multiplicando-se o anterior por uma constante. Utilizando uma linguagem de programação que dê suporte a orientação a objetos, defina uma progressão geométrica e dê exemplo de geração de seus primeiros 50 termos.
 
 ```ts
-function progressao_geometrica(valor: number, constante: number):void {
+function progressao_geometrica_mic(valor: number, constante: number):void {
     for (let i = 0; i <= 50; i++) {
         console.log(valor)
         valor = valor * constante
     }
 }
 
-progressao_geometrica(1, 3);
+progressao_geometrica_mic(1, 3);
 ```
 
 #### 2.10. A sequência de Fibonacci é definida da seguinte forma: {1, 1, 2, 3, 5, 8, 13, ...}, ou seja, para k>2, xk = xk-1 + xk-2. Utilizando uma linguagem de programação com suporte a orientação a objetos, defina uma classe que modele a sequência de Fibonacci e exemplifique o cálculo de alguns de seus termos. Ilustre a chamada recursiva e identifique chamadas repetidas a um mesmo valor.
 
 ```ts
-class Fibonacci {
+class Fibonacci_mic {
     fibo: number[] = [1, 1, 2];
 
 
@@ -213,6 +213,6 @@ class Fibonacci {
 }
 
 
-new Fibonacci().gerar_sequencia_recursiva(8)
-new Fibonacci().gerar_sequencia(8);
+new Fibonacci_mic().gerar_sequencia_recursiva(8)
+new Fibonacci_mic().gerar_sequencia(8);
 ```

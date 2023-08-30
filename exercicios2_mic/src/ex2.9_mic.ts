@@ -4,11 +4,11 @@ que dê suporte a orientação a objetos, defina uma progressão geométrica e d
 de seus primeiros 50 termos. */
 
 
-function progressao_geometrica(valor: number, constante: number):void {
+function progressao_geometrica_mic(valor: number, constante: number):void {
     for (let i = 0; i <= 50; i++) {
         console.log(valor)
         valor = valor * constante
     }
 }
 
-progressao_geometrica(1, 3);
+progressao_geometrica_mic(1, 3);
