@@ -10,17 +10,17 @@ cursos = Desenvolvimento de software multiplataforma, geoprocessamento,meio ambi
 ```
 #### 2.3. Efetue uma definição, através de enumeração, de números primos. Um número é dito primo se só possui como divisor ele mesmo e o número um.
 ```
-numeros_primos = 1,3,5,7,...
+numeros_primos = 1,2,3,5,7,...
 ```
 #### 2.4. Efetue uma definição ostensiva, de um colega de classe.
 #### 2.5. Efetue uma definição recursiva de uma sequência numérica cujos elementos são obtidos multiplicando-se, a partir do segundo elemento, o elemento anterior por 3. Considere que o primeiro elemento vale 2.
 ```
 Primeiro termo da sequência numérica = 2
-Termos da sequência numérica = Xk, com Xk expresso pela fórmula Xk = (Xk -1) * 3
+Termos da sequência numérica = X_k, com X_k expresso pela fórmula X_k = (X_k -1) * 3
 
 Sequência numérica = {2,6,18...}
 
-sequência_numérica = {Xk | X1 = 2 e Xk = Xk-1 * 3}
+sequência_numérica = {X_k | X_k1 = 2 e X_k = X_k - 1 * 3}
 ```
 #### 2.6. Utilizando linguagem de programação defina:
 - a) Uma enumeração para os meses do ano.
