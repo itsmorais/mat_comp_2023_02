@@ -2,7 +2,10 @@ async function fetchFileData() {
 
     const response = await fetch('input2.txt'); // fetch no arquivo 
 
-    const data = await response.text(); // converte para text type
+    let data = await response.text(); // converte para text type
+    data = data.toLowerCase()
+    data = data.replaceAll('.', "") // Substitui pontos por espaço vazio
+    data = data.replaceAll("-", "") // Substitui traços por espaço vazio
 
     return data.split(' '); // Retorna array com cada palavra em uma célula
 
@@ -21,7 +24,9 @@ function stopWords() {
     let incidencias = [...new Set(stringFile)]
 
     incidencias.map((palavra, index) => {
-        incidencias[index] = [palavra, incidenciasPalavra(palavra)]
+        if (palavra != '') { // pegar apenas palavras que não estão vazias
+            incidencias[index] = [palavra, incidenciasPalavra(palavra)]
+        }
     })
 
     // SORT PELA SEGUNDA COLUNA - AS DE VALORES NÚMERICOS
